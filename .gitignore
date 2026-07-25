@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+outputs/
+
+ndvi_map.png
+ndvi_histogram.png
+
+tempCodeRunnerFile.py
