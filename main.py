@@ -35,8 +35,8 @@ def main():
     for label, pct in classify_ndvi(ndvi).items():
         print(f"{label:35s}: {pct:5.1f}%")
 
-    save_ndvi_map(ndvi, "ndvi_map.png")
-    save_histogram(ndvi, "ndvi_histogram.png")
+    save_ndvi_map(ndvi, "outputs/ndvi_map.png")
+    save_histogram(ndvi, "outputs/ndvi_histogram.png")
     print("\nSaved ndvi_map.png and ndvi_histogram.png")
 
 
